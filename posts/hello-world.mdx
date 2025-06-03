@@ -1,0 +1,92 @@
+---
+title: Getting Started with Next.js and Markdown
+date: '2025-04-01'
+description: Learn how to build a modern blog with Next.js and Markdown
+image: 'https://images.pexels.com/photos/546819/pexels-photo-546819.jpeg'
+tags: ['Next.js', 'React', 'Markdown']
+featured: true
+---
+
+# Welcome to Your New Blog
+
+This is your first blog post, written in Markdown and rendered with MDX. You can use all the standard Markdown syntax you're familiar with.
+
+## What's Included?
+
+This blog platform has been built with:
+
+- **Next.js** - A React framework for production
+- **TypeScript** - For type safety
+- **Tailwind CSS** - For styling
+- **MDX** - For enhanced Markdown with components
+- **Dark Mode** - For comfortable reading day and night
+
+## Code Highlighting
+
+```tsx
+// Example React component
+import { useState } from 'react';
+
+function Counter() {
+  const [count, setCount] = useState(0);
+  
+  return (
+    <div>
+      <p>Count: {count}</p>
+      <button onClick={() => setCount(count + 1)}>Increment</button>
+    </div>
+  );
+}
+```
+
+## Images
+
+You can include images in your posts:
+
+![Nature](https://images.pexels.com/photos/346529/pexels-photo-346529.jpeg)
+
+## Blockquotes
+
+> The best way to predict the future is to invent it.
+> 
+> — Alan Kay
+
+## Lists
+
+Unordered lists:
+
+- Item one
+- Item two
+- Item three
+
+Ordered lists:
+
+1. First step
+2. Second step
+3. Third step
+
+## Tables
+
+| Feature | Description |
+| ------- | ----------- |
+| Markdown | Write content in Markdown |
+| Components | Use React components in your Markdown |
+| Code Highlighting | Syntax highlighting for code blocks |
+| Dark Mode | Toggle between light and dark themes |
+
+## Next Steps
+
+To create more blog posts, add new MDX files to the `content/posts` directory. Make sure each post includes the required frontmatter fields:
+
+```yml
+---
+title: Your Post Title
+date: '2025-04-01'
+description: A brief description of your post
+image: 'https://path-to-your-image.jpg'
+tags: ['tag1', 'tag2']
+featured: false
+---
+```
+
+Happy blogging!
